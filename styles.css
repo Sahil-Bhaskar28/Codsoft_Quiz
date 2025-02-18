@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  background-image: url("https://img1.wallspic.com/crops/7/9/9/1/11997/11997-monochrome_photography-nature-tree-black-dark-1920x1080.jpg");
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: rgb(54, 204, 156);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  background: #06070f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0dcd50;
+}
+
+.hidden {
+  display: none;
+}
+
+input, select {
+  padding: 10px;
+  margin: 5px;
+  width: 90%;
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; 
+  align-items: flex-start;
+}
+
+.quiz-options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#quizResults {
+  text-align: center;
+  padding: 20px;
+  background: #aebed5;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#scoreDisplay h2 {
+  color: #15250e;
+}
+
+#scoreDisplay p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+}
+
